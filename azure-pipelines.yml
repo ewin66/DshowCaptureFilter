@@ -12,7 +12,9 @@ jobs:
     scheme: 'Windows/'
     sdkurl: $(WindowsRTCSDK)
     solutionName: 'AgoraMediaSource.sln'
-    sdkunzipPath: 'AgoraSDK/Agora_Native_SDK_for_Windows_v3.0.0_FULL'
+    sdkVersion: '3_0_0'
+    sdkFolderVersion: '3.0.0'
+    Machine: x86
 #Windows Demo
 - template: cicd/templates/build-Windows.yml
   parameters:
@@ -21,4 +23,6 @@ jobs:
     scheme: 'Agora-String-Account-Windows'
     sdkurl: $(WindowsRTCSDK)
     solutionName: 'AgoraExternalCapture.sln'
-    sdkunzipPath: 'AgoraSDK/Agora_Native_SDK_for_Windows_v3.0.0_FULL'
+    sdkVersion: '3_0_0'
+    sdkFolderVersion: '3.0.0'
+    Machine: x86
