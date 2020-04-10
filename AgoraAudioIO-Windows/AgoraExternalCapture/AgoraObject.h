@@ -1,11 +1,11 @@
 #pragma once
 
 
-#include "../SDK/include/IAgoraRtcEngine.h"
-#include "../SDK/include/IAgoraMediaEngine.h"
+#include "IAgoraRtcEngine.h"
+#include "IAgoraMediaEngine.h"
 #include "ExtendAudioFrameObserver.h"
 #include "AGEngineEventHandler.h"
-#include "../SDK/include/AgoraBase.h"
+#include "AgoraBase.h"
 using namespace agora;
 
 // #define ENABLE_CODEC	1

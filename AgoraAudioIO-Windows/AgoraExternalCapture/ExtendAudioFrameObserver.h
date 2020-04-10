@@ -1,5 +1,5 @@
 #pragma once
-#include "../SDK/include/IAgoraMediaEngine.h"
+#include "IAgoraMediaEngine.h"
 #include "CirCleBuffer.hpp"
 //#include "XAudioPlayout.h"
 
