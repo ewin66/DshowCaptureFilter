@@ -47,7 +47,7 @@ jobs:
       - task: CopyFiles@2
         inputs:
           sourceFolder: $(sdkunzipPath)/sdk
-          targetFolder: ${{ parameters.workingDirectory }}/AgoraSDK
+          targetFolder: ${{ parameters.workingDirectory }}/SDK
 
       - task: CopyFiles@2
         inputs:
