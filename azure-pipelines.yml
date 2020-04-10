@@ -7,9 +7,9 @@ variables:
 jobs:
 - template: cicd/templates/build-Windows.yml
   parameters:
-    displayName: 'AgoraMediaSourceWindows'
-    workingDirectory: 'Windows/'
-    scheme: 'Windows/'
+    displayName: 'AgoraMediaSource'
+    workingDirectory: 'AgoraMediaSource/'
+    scheme: 'AgoraMediaSource/'
     sdkurl: $(WindowsRTCSDK)
     solutionName: 'AgoraMediaSource.sln'
     sdkVersion: '3_0_0'
@@ -18,7 +18,7 @@ jobs:
 #Windows Demo
 - template: cicd/templates/build-Windows.yml
   parameters:
-    displayName: 'AgoraAudioIOWindows'
+    displayName: 'AgoraAudioIO'
     workingDirectory: 'AgoraAudioIO-Windows'
     scheme: 'Agora-String-Account-Windows'
     sdkurl: $(WindowsRTCSDK)
