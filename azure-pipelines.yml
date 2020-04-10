@@ -16,7 +16,7 @@ jobs:
 #Windows Demo
 - template: Windows/cicd/templates/build-Windows.yml
   parameters:
-    displayName: 'AgoraAudioIO-Windows'
+    displayName: 'AgoraAudioIOWindows'
     workingDirectory: 'AgoraAudioIO-Windows'
     scheme: 'Agora-String-Account-Windows'
     sdkurl: $(WindowsRTCSDK)
